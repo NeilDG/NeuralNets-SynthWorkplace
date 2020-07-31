@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Recordings/
+Assets/Imported/
+Assets/Fantastic City Generator/
+Assets/Scenes/DehazeScene/
+Assets/Scenes/
