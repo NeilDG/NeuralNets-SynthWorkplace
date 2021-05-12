@@ -16,7 +16,7 @@ public class LightTracker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.filePath = "D:/Users/delgallegon/Documents/GithubProjects/NeuralNets-SynthWorkplace/Recordings/Lights_8/lights_{0}.txt";
+        this.filePath = "D:/Users/delgallegon/Documents/GithubProjects/NeuralNets-SynthWorkplace/Recordings/Lights_11/lights_{0}.txt";
     }
 
     // Update is called once per frame
@@ -28,9 +28,9 @@ public class LightTracker : MonoBehaviour
             //float y = Mathf.Abs(this.cameraTransform.localPosition.y - this.dirLight.transform.localPosition.y);
             float z = Mathf.Abs(this.cameraTransform.localPosition.z - this.dirLight.transform.localPosition.z);
 
-            Debug.LogFormat("Distance to global light: (X:{0}, Z:{1})", x, z);
+            //Debug.LogFormat("Distance to global light: (X:{0}, Z:{1})", x, z);
 
-            String textFilePath = String.Format(this.filePath, this.index);
+            String textFilePath = String.Format(this.filePath, this.index - this.startIndex);
 
             //Save coords per file
             StreamWriter writer = new StreamWriter(textFilePath, true);
