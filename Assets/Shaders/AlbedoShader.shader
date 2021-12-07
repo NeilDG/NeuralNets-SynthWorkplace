@@ -50,7 +50,8 @@ Shader "Custom/SpecularShader"
                 //the fragment shader
                 fixed4 frag(v2f i) : SV_TARGET{
                     float3 albedo = tex2D(_CameraGBufferTexture0, i.uv).rgb;
-                    return float4(albedo, 1);
+                    float alpha = tex2D(_CameraGBufferTexture0, i.uv).a;
+                    return float4(albedo, alpha);
                 }
                 ENDCG
     }
