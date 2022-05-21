@@ -76,3 +76,5 @@ Assets/Scenes/WeatherScene_NoShadows.unity
 Assets/Scenes/WeatherScene_NoShadows.meta
 Assets/Scenes/WeatherScene.unity.meta
 Assets/Scenes/WeatherScene.unity
+Assets/Scenes/*.unity
+Assets/Scenes/*/
