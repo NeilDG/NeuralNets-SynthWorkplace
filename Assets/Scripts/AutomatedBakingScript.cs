@@ -3,17 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using System.Threading;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
+using Object = UnityEngine.Object;
+
 
 public class AutomatedBakingScript : MonoBehaviour
 {
-    private static int index = 0;
+    private static int index = 180;
     private static int requiredBakes;
     private static string[] assetPaths;
     private static LightingSettings lightingSettings;
+
+    private static int pngSceneIndex = 0;
 
     static string[] PopulateSkyboxes()
     {
@@ -59,8 +65,10 @@ public class AutomatedBakingScript : MonoBehaviour
     static void SaveSceneCopies()
     {
         assetPaths = PopulateSkyboxes();
+        //requiredBakes = assetPaths.Length;
+        //requiredBakes = 20;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = index; i < requiredBakes; i++)
         {
             Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[i]);
             string sceneName = "Scene_" + i.ToString() + "_" + skyboxMat.name + ".unity";
@@ -68,7 +76,7 @@ public class AutomatedBakingScript : MonoBehaviour
             bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
         }
 
-        Debug.Log("Saved " +assetPaths.Length+ " scene copies.");
+        Debug.Log("Saved " +requiredBakes+ " scene copies.");
         
     }
 
@@ -76,8 +84,8 @@ public class AutomatedBakingScript : MonoBehaviour
     static void StartAutomatedBaking()
     {
         assetPaths = PopulateSkyboxes();
-        //requiredBakes = assetPaths.Length;
-        requiredBakes = 3;
+        requiredBakes = assetPaths.Length;
+        //requiredBakes = 20;
 
         Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[index]);
         RenderSettings.skybox = skyboxMat;
@@ -104,8 +112,8 @@ public class AutomatedBakingScript : MonoBehaviour
         string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
 
         //bool success = Lightmapping.TryGetLightingSettings(out lightingSettings);
-        lightingSettings = SetDebugSettings();
-        //lightingSettings = SetProductionSettings();
+        //lightingSettings = SetDebugSettings();
+        lightingSettings = SetProductionSettings();
         Lightmapping.SetLightingSettingsForScene(EditorSceneManager.GetActiveScene(), lightingSettings);
 
         Debug.Log("Bake started for scene:" + sceneName);
@@ -165,6 +173,46 @@ public class AutomatedBakingScript : MonoBehaviour
             Process.Start(psi);
         }
         
+    }
+
+    [MenuItem("Window/Automated Baking/Save All Scenes as PNG")]
+    static void SaveAllScenesAsPNG()
+    {
+        assetPaths = PopulateSkyboxes();
+        LoadNextScene();
+    }
+
+    static void LoadNextScene()
+    {
+        Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[pngSceneIndex]);
+        string sceneName = "Scene_" + pngSceneIndex.ToString() + "_" + skyboxMat.name + ".unity";
+        string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+
+        EditorSceneManager.OpenScene(scenePath);
+        EditorSceneManager.sceneOpened += OnSceneOpened;
+        EditorApplication.playModeStateChanged += OnExitedPlayMode;
+    }
+
+    static void OnSceneOpened(Scene scene, OpenSceneMode mode)
+    {
+        Object camcorder = Resources.Load<Object>("CameraRecorder");
+        GameObject.Instantiate(camcorder);
+
+        EditorApplication.EnterPlaymode();
+    }
+
+    static void OnExitedPlayMode(PlayModeStateChange mode)
+    {
+        pngSceneIndex++;
+        if (pngSceneIndex < assetPaths.Length)
+        {
+            LoadNextScene();
+        }
+    }
+
+    public static void OnRecordingFinished()
+    {
+        Debug.Log("Load next scene for PNG saving!");
     }
 
     // Update is called once per frame
