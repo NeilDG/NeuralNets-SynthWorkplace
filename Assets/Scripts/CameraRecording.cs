@@ -14,9 +14,10 @@ public class CameraRecording : MonoBehaviour
 
     private const string BASE_PATH = "E:/SynthWeather Dataset 8/";
 
-    private const int SAVE_EVERY_FRAME = 1;
-    private const int MAX_COUNTER = 1500;
+    private const int SAVE_EVERY_FRAME = 20000;
+    private const int MAX_IMAGES_TO_SAVE = 1000;
     private const float TIME_SCALE = 100.0f;
+    private const int CAPTURE_FRAME_RATE = 5;
 
     private int frames = 0;
     private int counter = 0;
@@ -40,6 +41,7 @@ public class CameraRecording : MonoBehaviour
         //Directory.CreateDirectory(this.currentFolderDir + "/smoothness/");
 
         Time.timeScale = TIME_SCALE;
+        Time.captureFramerate = CAPTURE_FRAME_RATE;
 
     }
 
@@ -53,19 +55,26 @@ public class CameraRecording : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (this.counter >= MAX_COUNTER)
+        if (this.counter >= MAX_IMAGES_TO_SAVE)
         {
             Object.DestroyImmediate(this.gameObject);
             EventBroadcaster.Instance.PostEvent(EventNames.ON_RECORDING_FINISHED);
         }
 
-        this.frames++;
+        float multiplier = Time.captureDeltaTime * TIME_SCALE;
+        this.frames += Mathf.RoundToInt(multiplier);
+
+        if (this.frames < 80000) //skip first N frames
+        {
+            Debug.Log("Skipping " + this.frames+ " for sync.");
+            return;
+        }
+
         if (this.frames % SAVE_EVERY_FRAME == 0)
         {
-            this.frames = 0;
-            
+            //this.frames = 0;
             this.WriteRGBCam();
             //this.WriteAlbedoCam();
             //this.WriteNormalCam();
@@ -92,7 +101,8 @@ public class CameraRecording : MonoBehaviour
         var Bytes = Image.EncodeToPNG();
         Destroy(Image);
 
-        File.WriteAllBytes(this.currentFolderDir + "/rgb/synth_" + this.counter + ".png", Bytes);
+        //File.WriteAllBytes(this.currentFolderDir + "/rgb/synth_" + this.counter + ".png", Bytes);
+        File.WriteAllBytes(this.currentFolderDir + "/synth_" + this.counter + ".png", Bytes);
         Debug.Log("Saved frame number: " + this.counter);
     }
 
