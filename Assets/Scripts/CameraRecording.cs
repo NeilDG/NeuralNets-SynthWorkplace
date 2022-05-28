@@ -15,7 +15,8 @@ public class CameraRecording : MonoBehaviour
     private const string BASE_PATH = "E:/SynthWeather Dataset 8/";
 
     private const int SAVE_EVERY_FRAME = 20000;
-    private const int MAX_IMAGES_TO_SAVE = 1000;
+    private const int MAX_IMAGES_TO_SAVE = 250;
+    private const int MAX_IMAGES_TO_SAVE_DEBUG = 10;
     private const float TIME_SCALE = 100.0f;
     private const int CAPTURE_FRAME_RATE = 5;
 
@@ -57,7 +58,13 @@ public class CameraRecording : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (this.counter >= MAX_IMAGES_TO_SAVE)
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (sceneIndex > 0 && this.counter >= MAX_IMAGES_TO_SAVE)
+        {
+            Object.DestroyImmediate(this.gameObject);
+            EventBroadcaster.Instance.PostEvent(EventNames.ON_RECORDING_FINISHED);
+        }
+        else if (sceneIndex == 0 && this.counter >= MAX_IMAGES_TO_SAVE_DEBUG)
         {
             Object.DestroyImmediate(this.gameObject);
             EventBroadcaster.Instance.PostEvent(EventNames.ON_RECORDING_FINISHED);

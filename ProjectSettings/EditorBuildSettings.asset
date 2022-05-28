@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Skyboxes/Scene0_Dummy.unity
+    guid: cd7e17d186004eb4abd683d9d90eec84
+  - enabled: 1
     path: Assets/Scenes/Skyboxes/Scene_0_Above Day A Equirect.unity
     guid: f904f2686d41c7549aa33c152d42fc0b
   - enabled: 1

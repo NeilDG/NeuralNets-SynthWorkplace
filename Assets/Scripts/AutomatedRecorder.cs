@@ -14,27 +14,16 @@ public class AutomatedRecorder : MonoBehaviour
     //private Transform cameraViewParent;
     //private Camera cameraView;
 
-    static string[] PopulateSkyboxes()
-    {
-        string[] guids = AssetDatabase.FindAssets("equirect t:material");
-        string[] assetPaths = new string[guids.Length];
-        for (int i = 0; i < guids.Length; i++)
-        {
-            assetPaths[i] = AssetDatabase.GUIDToAssetPath(guids[i]);
-        }
-
-        return assetPaths;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
-        assetPaths = PopulateSkyboxes();
         LoadNextScene();
 
         GameObject.DontDestroyOnLoad(this.gameObject);
         EventBroadcaster.Instance.AddObserver(EventNames.ON_RECORDING_FINISHED, OnRecordingFinished);
         SceneManager.sceneLoaded += SceneManager_sceneLoaded;
+
+        Time.captureFramerate = 5;
     }
 
     private void LoadNextScene()
@@ -44,7 +33,7 @@ public class AutomatedRecorder : MonoBehaviour
         {
             SceneManager.LoadScene(index);
         }
-        else if (this.index < assetPaths.Length)
+        else if (this.index < SceneManager.sceneCountInBuildSettings)
         {
             this.SceneManager_sceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
         }
@@ -52,9 +41,7 @@ public class AutomatedRecorder : MonoBehaviour
 
     private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        this.index++;
-        GameObject.Instantiate(this.cameraRecorder);
-
+        this.StartCoroutine(this.DelayRecordStart());
         //this.cameraViewRef = GameObject.Find("CleanCamera").GetComponent<Camera>();
         //this.cameraViewParent = this.cameraViewRef.transform.parent;
 
@@ -62,6 +49,13 @@ public class AutomatedRecorder : MonoBehaviour
         //Component.Destroy(this.cameraView.GetComponent<AudioListener>());
         //this.cameraView.targetTexture = null;
         //this.cameraView.transform.SetParent(this.cameraViewParent);
+    }
+
+    private IEnumerator DelayRecordStart()
+    {
+        yield return new WaitForSeconds(Time.captureDeltaTime * 1.0f);
+        this.index++;
+        GameObject.Instantiate(this.cameraRecorder);
     }
 
     private void OnRecordingFinished()
