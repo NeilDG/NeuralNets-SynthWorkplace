@@ -34,12 +34,17 @@ public class CameraRecording : MonoBehaviour
 
         this.currentFolderDir = BASE_PATH + SceneManager.GetActiveScene().name;
 
-        Directory.CreateDirectory(this.currentFolderDir);
-        //Directory.CreateDirectory(this.currentFolderDir + "/rgb/");
-        //Directory.CreateDirectory(this.currentFolderDir + "/albedo/");
-        //Directory.CreateDirectory(this.currentFolderDir + "/normal/");
-        //Directory.CreateDirectory(this.currentFolderDir + "/specular/");
-        //Directory.CreateDirectory(this.currentFolderDir + "/smoothness/");
+        if (SceneManager.GetActiveScene().buildIndex == 1) //index 1 scene records scene intrinsics
+        {
+            Directory.CreateDirectory(this.currentFolderDir + "/albedo/");
+            Directory.CreateDirectory(this.currentFolderDir + "/normal/");
+            //Directory.CreateDirectory(this.currentFolderDir + "/specular/");
+            //Directory.CreateDirectory(this.currentFolderDir + "/smoothness/");
+        }
+        else
+        {
+            Directory.CreateDirectory(this.currentFolderDir);
+        }
 
         Time.timeScale = TIME_SCALE;
         Time.captureFramerate = CAPTURE_FRAME_RATE;
@@ -81,10 +86,15 @@ public class CameraRecording : MonoBehaviour
 
         if (this.frames % SAVE_EVERY_FRAME == 0)
         {
-            //this.frames = 0;
-            this.WriteRGBCam();
-            //this.WriteAlbedoCam();
-            //this.WriteNormalCam();
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                this.WriteAlbedoCam();
+                this.WriteNormalCam();
+            }
+            else
+            {
+                this.WriteRGBCam();
+            }
             this.counter++;
         }
 

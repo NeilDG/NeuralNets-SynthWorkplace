@@ -10,6 +10,15 @@ public class AutomatedRecorder : MonoBehaviour
     private static string[] assetPaths;
     [SerializeField] private GameObject cameraRecorder;
 
+    private enum RecordingType
+    {
+        RECORD_INTRINSICS = 0,
+        RECORD_RGB = 1,
+        DEBUG = 2
+    };
+
+    [SerializeField] private RecordingType recordingType;
+
     //private Camera cameraViewRef;
     //private Transform cameraViewParent;
     //private Camera cameraView;
@@ -28,12 +37,25 @@ public class AutomatedRecorder : MonoBehaviour
 
     private void LoadNextScene()
     {
-        //GameObject.Destroy(this.cameraView);
-        if (this.index > 0)
+        int maxCount;
+        if (recordingType == RecordingType.DEBUG)
+        {
+            maxCount = 1;
+        }
+        else if (recordingType == RecordingType.RECORD_RGB)
+        {
+            maxCount = SceneManager.sceneCountInBuildSettings;
+        }
+        else
+        {
+            maxCount = 2;
+        }
+
+        if (this.index > 0 && this.index < maxCount)
         {
             SceneManager.LoadScene(index);
         }
-        else if (this.index < SceneManager.sceneCountInBuildSettings)
+        else if (this.index == 0)
         {
             this.SceneManager_sceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
         }
