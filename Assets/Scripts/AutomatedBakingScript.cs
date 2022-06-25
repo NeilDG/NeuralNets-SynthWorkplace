@@ -14,7 +14,7 @@ using Object = UnityEngine.Object;
 
 public class AutomatedBakingScript : MonoBehaviour
 {
-    private static int index = 180;
+    private static int index = 193;
     private static int requiredBakes;
     private static string[] assetPaths;
     private static LightingSettings lightingSettings;
@@ -71,14 +71,15 @@ public class AutomatedBakingScript : MonoBehaviour
     static void SaveSceneCopies()
     {
         assetPaths = PopulateSkyboxes();
-        //requiredBakes = assetPaths.Length;
+        requiredBakes = assetPaths.Length;
         //requiredBakes = 20;
 
         for (int i = index; i < requiredBakes; i++)
         {
             Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[i]);
             string sceneName = "Scene_" + i.ToString() + "_" + skyboxMat.name + ".unity";
-            string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+            //string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+            string scenePath = Application.dataPath + "/Scenes/Skyboxes_NoShadows/" + sceneName;
             bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
         }
 
@@ -100,7 +101,8 @@ public class AutomatedBakingScript : MonoBehaviour
         Lightmapping.bakeCompleted += OnBakeCompleted;
 
         string sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
-        string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+        //string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+        string scenePath = Application.dataPath + "/Scenes/Skyboxes_NoShadows/" + sceneName;
         bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
 
         Lightmapping.Clear();
@@ -115,7 +117,8 @@ public class AutomatedBakingScript : MonoBehaviour
     static void OnBakeStarted()
     {
         string sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
-        string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+        //string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+        string scenePath = Application.dataPath + "/Scenes/Skyboxes_NoShadows/" + sceneName;
 
         //bool success = Lightmapping.TryGetLightingSettings(out lightingSettings);
         //lightingSettings = SetDebugSettings();
@@ -152,7 +155,8 @@ public class AutomatedBakingScript : MonoBehaviour
             Debug.Log("Skybox name: " + RenderSettings.skybox.name);
 
             sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
-            string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+            //string scenePath = Application.dataPath + "/Scenes/Skyboxes/" + sceneName;
+            string scenePath = Application.dataPath + "/Scenes/Skyboxes_NoShadows/" + sceneName;
             bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
             if (result)
             {
@@ -172,11 +176,11 @@ public class AutomatedBakingScript : MonoBehaviour
         if (index == requiredBakes)
         {
             Debug.Log("All bake completed");
-            index = 0;
+            /*index = 0;
             var psi = new ProcessStartInfo("shutdown", "/s /t 0");
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
-            Process.Start(psi);
+            Process.Start(psi);*/
         }
         
     }
