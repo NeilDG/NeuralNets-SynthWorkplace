@@ -11,655 +11,1335 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UnlitScene.unity
     guid: d46ae73a6e6d20045bb5f44d4cd36af0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_0_Above Day A Equirect.unity
     guid: 374833a02b3694d4bafacfc1f5a3112a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_1_Above Day B Equirect.unity
     guid: 2dea09da5ebe30d47b1703ee2f54875c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_2_Above Day C Equirect.unity
     guid: 70fc51c9f4a8e234baaebad083477e39
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_3_Above Night A Equirect.unity
     guid: 896c12bbb2892c74db301766a9d0a2dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_4_Above Night B Equirect.unity
     guid: 8af1b9a29ea7b4a44af947d0c6ad43ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_5_Above Sunset A Equirect.unity
     guid: f648593f656226344ae9fcfe278b8bee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_6_Above Sunset B Equirect.unity
     guid: 5b83125d606282b499f302dfd9fba14a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_7_Above Sunset C Equirect.unity
     guid: 965491b58e91166479459ea6f3b25211
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_8_Anime Day Equirect.unity
     guid: 7bed2b586f38ae8428c104748bf2ada0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_9_Anime Night Equirect.unity
     guid: 3228c2b03ebcf8d42837b7de6cfc1b5a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_10_Anime Sunset Equirect.unity
     guid: 94dd77a42d10a9149996015803b651c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_11_Cartoon_Airbrush_Day_NoSun Equirect.unity
     guid: 0267b29462ea9634191023aa88c9ec80
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_12_Cartoon_FluffyBlueSky Equirect.unity
     guid: 46bae200ef6e7ba49888b4c8238a9fa4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_13_Day_BlueSky_Nothing Equirect.unity
     guid: 80665ab3501594d40972a869458effd2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_14_Cartoon Base NightSky Equirect.unity
     guid: e5a08145bee45a344aee068fba98292e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_15_Cartoon Base Skywave Equirect.unity
     guid: 44d483c03a87bb84495237feb77ee991
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_16_Cartoon Base Twilight Equirect.unity
     guid: e5f35b20f92368c47878495a81950b42
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_17_Cartoon_SunsetWildOils_Equirect.unity
     guid: d6e7f232fcf7c064aa3ce244c9ed5445
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_18_Cartoon_SunSetLightClouds Equirect.unity
     guid: de3905c2eb8cde147bff479caa4da16f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_19_Cartoon_SegaPixelBlueSky_NoSun_Equirect.unity
     guid: 3342c395dab43254db0faade96b40575
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_20_Day Sun High Clear Equirect.unity
     guid: 1b6bfd83c34589044916a546f5b823ed
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_21_Day Sun High ClearHazy Equirect.unity
     guid: 09a75de27a5b9dc459acd6f6d0564b18
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_22_Day Sun High CloudsLayer  Equirect.unity
     guid: dd789236955792949ae72052445b636e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_23_Day Sun High CloudsLayer Equirect.unity
     guid: bbb447960bfc8664d86b372c3a93a353
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_24_Day Sun High EpicDenseClouds Equirect.unity
     guid: 3df605757cd21ac49af6d5548779eec1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_25_Day Sun High FogHigh Equirect.unity
     guid: 4106639d707608643955ef50b88b2ff9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_26_Day Sun High HorizonRich Equirect.unity
     guid: d8f51150e4cd3e942901826c4dd9e630
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_27_Day Sun High Overcast Equirect.unity
     guid: 527594a89b4ca5d41ad2f654cd522caf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_28_Day Sun High Overcast Equirect.unity
     guid: b2cb9927075e08b41b06c6311444b52e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_29_Day Sun High SimpleCloudLayer Equirect.unity
     guid: bf6901211949aa149a864e75366e85ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_30_Day Sun High StormyCumulus Equirect.unity
     guid: ca1cbd54da234f542bdf0412225755d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_31_Day Sun High SummerSky Equirect.unity
     guid: 43696188a2164b84b96d3a8d6eb752c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_32_Day Sun High Summersky Equirect.unity
     guid: 7a119bc27f84c4d438c8a9877cb022ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_33_Day Sun Horizon ClearHazy Equirect.unity
     guid: 9ab2244ad24f8bc4bbf981ba314726af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_34_Day Sun Horizon FogHigh Equirect.unity
     guid: 52974fc238d827c46975545459630cbb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_35_Day Sun Horizon HighColdCirrus Equirect.unity
     guid: 6137224f94c1a0d4db3cdad184be47bb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_36_Day Sun Horizon Overcast Equirect.unity
     guid: 7f58c012ac8c7d6429d478f989eb0653
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_37_Day Sun Horizon SimpleCloudLayer Equirect.unity
     guid: 70c9581f085ca9d48a3edefe1d3554a3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_38_Day Sun Horizon Summersky Equirect.unity
     guid: 36a5a33da9786f04caaa18f7dfe5a53f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_39_Day Sun Horizon Summersky Equirect.unity
     guid: 60b5b01c86227b54195f72b721ed2699
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_40_Day Sun Low Autumnal Equirect.unity
     guid: 864d1bf3875aa914690ecee0ed919be6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_41_Day Sun Low Clear Equirect.unity
     guid: 35ef6775526459e438cdc5bfbd367624
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_42_Day Sun Low ClearHazy Equirect.unity
     guid: 35c0bac8bb503804a98565218d3b1f54
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_43_Day Sun Low CrepuscularStyle Equirect.unity
     guid: 66fa8bf03d19a2a42a29719ca63a79e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_44_Day Sun Low EpicHigh Equirect.unity
     guid: fdcefff7bd2b3b34db4e159e815717d5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_45_Day Sun Low EpicHigh Equirect.unity
     guid: a66745398a5d9c94594150766f6b368d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_46_Day Sun Low FogHigh Equirect.unity
     guid: 597307b1c0b4287429593a2be1ad5f08
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_47_Day Sun Low HorizonRich Equirect.unity
     guid: 41d4b23f08dc8a141bce7d1b87a0ff77
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_48_Day Sun Low Overcast Equirect.unity
     guid: 73b1dd022fc9cdc4bbc853f9abd2fd30
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_49_Day Sun Low Overcast Equirect.unity
     guid: f87957eb2db5f914d91722b44a28ac7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_50_Day Sun Low SimpleCloudLayer Equirect.unity
     guid: 434d937b9f99bab488d677837b7738b9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_51_Day Sun Low SimpleCloudLayer Equirect.unity
     guid: 6d500075d036abd49a37a80673f75016
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_52_Day Sun Low Summersky Equirect.unity
     guid: 10f879360b16ec34a9f9b496e7a6965e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_53_Day Sun Low Summersky Equirect.unity
     guid: 7365ae869950cc84b87e95f415f1972e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_54_Day Sun Low SummerSky Equirect.unity
     guid: feda3103b72138d41b134719d588eb3e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_55_Day Sun Mid Autumnal Equirect.unity
     guid: 4b50732015381b3469d804b324a08233
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_56_Day Sun Mid Clear Equirect.unity
     guid: 1dccefc8ab9489b4685e5429d4308b8a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_57_Day Sun Mid ClearHazy Equirect.unity
     guid: 138a3e06916c06145aac5f035f68a2ec
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_58_Day Sun Mid Cloudslayer Equirect.unity
     guid: a2789b17eb2d0874ca3ad6148f1523c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_59_Day Sun Mid CloudsLayered Equirect.unity
     guid: 7370c801086dd8d4a9eb7d3a44427e92
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_60_Day Sun Mid CrepuscularStyle Equirect.unity
     guid: a646e7bd7d7bd604a8b339619d934e86
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_61_Day Sun Mid EpicHigh Equirect.unity
     guid: 124bca6d4d5238b41b491ec877991386
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_62_Day Sun Mid EpicHigh Equirect.unity
     guid: 49c12ed07d6ab754e95051c2b8c04a0d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_63_Day Sun Mid FogHigh Equirect.unity
     guid: f6ef47f210c935b43bcff9c435ba638b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_64_Day Sun Mid Heavy Equirect.unity
     guid: 299f642494dda8844894a3bb71897729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_65_Day Sun Mid HighColdCirrus Equirect.unity
     guid: f62eaf3c8870af1458e48afdd9e13444
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_66_Day Sun Mid HorizonRich Equirect.unity
     guid: 07f7692f38a24224fa6d421e3b5978fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_67_Day Sun MId HorizonRich Equirect.unity
     guid: 1be54e88962bb7f4992f3d6d110e3c7a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_68_Day Sun Mid Overcast1 Equirect.unity
     guid: a277cbf7e46b3ed4a9330b94a74c04b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_69_Day Sun Mid Overcast2 Equirect.unity
     guid: 9c0dfc0db66582f4596e9b3a21473f9e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_70_Day Sun Mid SimpleCloudLayer Equirect.unity
     guid: 3ecfa6c9b34f7ef4aa347e151dd42106
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_71_Day Sun Mid StormyCumulus Equirect.unity
     guid: 6c6fe694041c7084ba1d35e959ce06e0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_72_Day Sun Mid SummerSky Equirect.unity
     guid: ccbf0580ee19cee49ab6ade8e21813d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_73_Day Sun Mid Summersky Equirect.unity
     guid: 72c7fa4f0c931bd4ebfe1dd302cba6dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_74_Day Sun Mid SummerSky Equirect.unity
     guid: 19d93992dd06b0345aa0ea9e89d648b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_75_Day Sun Peak Clear Equirect.unity
     guid: acba16abe09626342b635c17a9365263
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_76_Day Sun Peak Summersky Equirect.unity
     guid: a3ced1d9e0892df45847e4c1d32188c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_77_Day Sun Sunset Clear Equirect.unity
     guid: 1b785f0e9ee4d2d43af5a28a3cbcd86e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_78_Day Sun Sunset EpicHigh Equirect.unity
     guid: fe41f4ead07481b4e81150b95c963d99
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_79_Day Sun Sunset SimpleCloudLayer Equirect.unity
     guid: 787cd08e160ef3e4481db461404c6694
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_80_Day Sun Sunset Summersky Equirect.unity
     guid: 2bc2ba83d539fae4a8e338b7b2b38728
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_81_Day Sun Sunset SummerSky 3 Equirect.unity
     guid: b081723101a05674fa11d93ca8542ec6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_82_Day Sun Twilight Clear Equirect.unity
     guid: 93f29479e65175445add31834451357b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_83_Day Twilight Summersky Equirect.unity
     guid: 0c8205ab97c820a4db9ce557e87b5232
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_84_Epic Bright Sunset Equirect.unity
     guid: f3fc5efd119a592429c9c4e5d2e4b28c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_85_Epic Night Turbulent Equirect.unity
     guid: fdb68fda8df28f240bf33212fde65363
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_86_Epic Sunset B Equirect.unity
     guid: c0f1233e1582fa34d98a3a086ea6c143
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_87_Epic_BigCloudsSoft Equirect.unity
     guid: 9af98a5d400f40b4480f17f8c9ab4588
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_88_Epic_BlueSunset Equirect.unity
     guid: e2556b24d9ae4184ab0733a71bd52b16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_89_Epic_BrightIncomingStorm Equirect.unity
     guid: 1b51b48352600494eb1542c7ff13de68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_90_Epic_CentreOfTheStorm Equirect.unity
     guid: 6f395f9bf014b6446b313e53333ac411
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_91_Epic_GloriousPink Equirect.unity
     guid: 95a8829f91d398f4ba6c018864b17db6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_92_Epic_NightStormMoonGlow Equirect.unity
     guid: c2537bf2ef73a944c85d51d2070db9fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_93_Epic_SunsetDark Equirect.unity
     guid: e63b97b4de5225d48a010537052372eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_94_Epic_SunsetGoldenLayers Equirect.unity
     guid: 7d39c370126b7f749a7a480c1d9561e6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_95_Epic_Twilight Equirect.unity
     guid: 122d1331014a4dc49bc0d4d07577580e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_96_Epic_TwilightStormGlow Equirect.unity
     guid: 94a14c17fa65bfa40b091437f5e9bdf8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_97_FantasySky_Fire Equirect.unity
     guid: d22cf24da49ef694d8f487d5fc586019
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_98_FantasySky_Heavy_1 Equirect.unity
     guid: ca19dc1d7fc300c4bb2dd77273c4bbcf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_99_FantasyClouds2_High Equirect.unity
     guid: a072b4f2db9772145b64bdffe5f39c96
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_100_FantasyClouds_High3 Equirect.unity
     guid: 4c5278fdf1a1fde4584fac619656e4fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_101_FantasyClouds1_Low Equirect.unity
     guid: 9cc60a7cfdf747340be68aad18ece08f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_102_FantasyClouds1_Low Equirect.unity
     guid: c8694abe0081cbe46abde9772ff9c124
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_103_AllSky_FantasySky_Mid Equirect.unity
     guid: b9c52b140c0771a4f9f629ba5f2ee063
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_104_AllSky_FantasySky_Mid_2 Equirect.unity
     guid: 9f74b2768b07fc3458696431afe25b1f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_105_FantasySky_Night1 Equirect.unity
     guid: 23061a1382f64414eae23622094e1525
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_106_FantasySky_Night_2 Equirect.unity
     guid: b21778fe9e10ca64dbd2f8387e9600f6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_107_Haze_ColdIncomingSnow Equirect.unity
     guid: 6a01841556216b44da9eba5ecf25182d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_108_Haze_DiffuseLowSunGreen Equirect.unity
     guid: 97fcf68a89102e043acaf111152e2947
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_109_Haze_WarmRainCloudsOnHorizon Equirect.unity
     guid: 3c2216567fe51f446846083624d9eacf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_110_Blouberg Sunrise Equirect.unity
     guid: daa7fe7421b320843810e4316d715b7a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_111_blouberg_sunrise_Equirect.unity
     guid: 2eefb5de14915b644bcb72a2a3d4f1af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_112_blue_Lagoon_16k Equirect.unity
     guid: 2284b89988f12fb47a3a0af6163c360f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_113_Cayley Lookout Equirect.unity
     guid: 0ec96f21a1c22f64189a2930891a8102
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_114_Cedar Bridge Equirect.unity
     guid: 18baf80c790733c40b3d9f7691607554
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_115_Circus Maximus Equirect.unity
     guid: f49d381c908bb13458ae535a27950cfc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_116_Cloud Layers Equirect.unity
     guid: c31cc677165b3294d9ab7013f8212d33
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_117_Fish Hoek Beach Equirect.unity
     guid: e84e99fc835fa864c98612ca0895d12d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_118_Furry Clouds Equirect.unity
     guid: 769863da7e233b74aa3dc0dc439afe0d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_119_Lenong Equirect.unity
     guid: 97f426134d778094b9a78796abfabbd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_120_Mud Road Equirect.unity
     guid: 4d1ccba5c1177d84cb98809be5c83737
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_121_Rocky Ridge Equirect.unity
     guid: ad210471c1e1d2b4b9cec6c11409a6d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_122_Table Mountain Equirect.unity
     guid: 260b985375217bc4788a5ccd47152e12
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_123_The Sky is on Fire Equirect.unity
     guid: 61ef638df849e6745a21de7ac621f500
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_124_Tiber Island Equirect.unity
     guid: a146fbecff0964945b1e89ac4eb94f6d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_125_Umlanga Sunrise Equirect.unity
     guid: 62615f16a0a71194dbe1e70f9759e8d6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_126_White Cliff Top Equirect.unity
     guid: 5d2556ae688259b4da8ee1bce9fdd99e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_127_Winter Lake Equirect.unity
     guid: 1caba379876b5b74795637da15d183c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_128_Mammatus Day Dark Equirect.unity
     guid: f5cf6c7647c11c141baed25b5f8a9f96
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_129_Mammatus Sunset A Equirect.unity
     guid: be345fda4b087ee4ea5480ff9e56b421
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_130_Night Moon High Clear Equirect.unity
     guid: 81aee83cf33e7594e8e9d2b705139980
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_131_Night Moon High HorizonRich 2 Equirect.unity
     guid: b0cd124a133f9a74ab2f9b52d6de981a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_132_Night Moon High SimpleCloudLayer 2 Equirect.unity
     guid: 2e4657667c9b4c549a63e414aef9d555
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_133_Night Moon High SummerSky 3 Equirect.unity
     guid: 180992e1b2ef37842ad69fdd3cd09e5f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_134_Night Moon Low Clear Equirect.unity
     guid: 1311778f8deca2c448510827b53588c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_135_Night Moon Low ClearHazy Equirect.unity
     guid: 2d5085b97fde45e4993135bee783fcd9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_136_Night Moon Low CloudsLayer Equirect.unity
     guid: 4f99341cc67052a4cbc56b6c52bcc79d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_137_Night Moon Low CloudsLayered Equirect.unity
     guid: e86c9deb849bd2a439ddc7e476114b89
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_138_Night Moon Low CrepuscularStyle Equirect.unity
     guid: 1609d2b2053fadd468a272ffce94ae40
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_139_Night Moon Low Cumulus2 Equirect.unity
     guid: 5ec1217317244184381f10d4371ba838
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_140_Night Moon Low EpicDenseClouds Equirect.unity
     guid: 235b4430cd133ce42a7c32cb0f6497f9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_141_Night Moon Low EpicHigh Equirect.unity
     guid: 824cc39ea4c07a14c9103d911dac6fa7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_142_Night Moon Low FogHigh Equirect.unity
     guid: a5673f982c8fd124290a0a9b33af9889
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_143_Night Moon Low Heavy Equirect.unity
     guid: b6bb0f81fcd80d749b1eab7fb10f2063
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_144_Night Moon Low HorizonRich Equirect.unity
     guid: 72296dd3d4efbe14ca850f757a90957c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_145_Night Moon Low HorizonRich 2 Equirect.unity
     guid: 0dd279edc05102b41a8a975373ff599f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_146_Night Moon Low Large Equirect.unity
     guid: cc9b79d5f90887f43a74a6620b58299f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_147_Night Moon Low Overcast1 Equirect.unity
     guid: bda2b285a5fcaac419d43eebf5212fb7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_148_Night Moon Low Overcast2 Equirect.unity
     guid: e69ce1b6eec88504d8fca25c268eea76
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_149_Night Moon Low SimpleCloudLayer 2 Equirect.unity
     guid: 16003d93c306ae04f841f70c7fc67b07
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_150_Night Moon Low StormyCumulus Equirect.unity
     guid: 40fcf2774d696a740aae1413b50c59fa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_151_Night Moon Low SummerSky Equirect.unity
     guid: 64e1339a221880f408d6f9fbf87b1dad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_152_Night Moon Low Summersky 3 Equirect.unity
     guid: 2769b2c08ef3dfd4aa144442d1d79a3b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_153_Night Moon Mid Autumnal Equirect.unity
     guid: 3ee73046138c81445a997b426940bd02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_154_Night Moon Mid BrewingStorm Equirect.unity
     guid: 1a2027559b874474ebb1c7c1e7b7f8bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_155_Night Moon Mid Clear Equirect.unity
     guid: d3238c221ba2d404fb2d23cb6d2a8ce1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_156_Night Moon Mid Clouds Layered Equirect.unity
     guid: dc42f102534b4b542a770a3bc6ddbbc3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_157_Night Moon Mid CrepuscularStyle Equirect.unity
     guid: 6589bb2b9906f26459a2927932eb05f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_158_Night Moon Mid Cumulus Equirect.unity
     guid: 69f2021e58fc6ee439a10f1ffd30e0c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_159_Night Moon Mid EpicDenseClouds Equirect.unity
     guid: f75c0610f4e451147a485cdfa51335da
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_160_Night Moon Mid EpicHigh Equirect.unity
     guid: 9b1303c75268cc344bc7be63317499e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_161_Night Moon Mid FogHigh Equirect.unity
     guid: 16d968fdddd059b4ea18a8aa71714124
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_162_Night Moon Mid Heavy Equirect.unity
     guid: 70ed3f34cf61cae47b351283bb5140be
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_163_Night Moon Mid HighColdCirrus Equirect.unity
     guid: 5c7a274066d369f44b37adf454a20d32
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_164_Night Moon Mid Large Equirect.unity
     guid: 66abbfbfb1e31614092d83eda8376d55
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_165_Night Moon Mid Overcast 1 Equirect.unity
     guid: 1c0e751eed5c28141883ee503a74cdeb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_166_Night Moon Mid Overcast 2 Equirect.unity
     guid: e1d012e96611d7c44a2879960c9be4f2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_167_Night Moon Mid SimpleCloudLayer Equirect.unity
     guid: 550bbf79a424ccf41a9466744016b342
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_168_Night Moon Mid StormyCumulus Equirect.unity
     guid: 648b1bfc71009ba4cbae9b210bfa8911
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_169_Night Moon Peak Clear Equirect.unity
     guid: a9ee86999dfb93046a3a1158055b0e3b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_170_Night Moon Peak Summersky Equirect.unity
     guid: 9ae81d037bdfd9d4cb88e041a4dcfa8c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_171_Night Moon Rise Clear Equirect.unity
     guid: cc571f736d605e44eade01671fc0c859
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_172_Night Skyglow Autumunal Equirect.unity
     guid: 27b2344cb7bbe944ca814470653cbaf9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_173_Night Skyglow clearhazy Equirect.unity
     guid: 75ad34a424ae3224489df0548b2b6c88
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_174_Night Skyglow crepuscularstyle Equirect.unity
     guid: bc0767d642ce04044b78acd3047d690d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_175_Night Skyglow epichigh Equirect.unity
     guid: d30b39bcc650f9d4188f90108ec1e8dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_176_Night Skyglow foghigh Equirect.unity
     guid: 2725124ed76a5e2458269a2d23e5d3a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_177_Night Skyglow heavy Equirect.unity
     guid: 8650e6f999ba3204ba573e31b3e65000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_178_Night Skyglow highcoldcirrus Equirect.unity
     guid: aa9e00413fce76b44a30cc0840eda473
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_179_Night Skyglow horizonrich Equirect.unity
     guid: 9047770578f2b3a4db40e8a7d6c57fa9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_180_Night Skyglow Overcast Equirect.unity
     guid: f45737fd7e69ef54da7b88cbcff6972f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_181_AllSky_Overcast3_High Equirect.unity
     guid: 276de9059f5465d41b1a9e414540129d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_182_AllSky_Overcast4_Low Equirect.unity
     guid: f24e3093678ffc44eb514eccb9d0ed0e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_183_Space Planet A Equirect.unity
     guid: 4bc717f3a69a2b94baf3f50bed3ddf17
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_184_Space Planet B Equirect.unity
     guid: 5298acc42605b6a4cbcd10fd991c0bd1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_185_Space Planet C Equirect.unity
     guid: aa3d114ff6fb8f44797caf76c08d1692
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_186_Starfield Equirect.unity
     guid: 190d163a7777b064db4d024eaf3b12bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_187_AllSky_Space_AnotherPlanet Equirect.unity
     guid: 85efbc03715557d4a9c6625a40ab92c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_188_AllSky_Space_ColdNebula_Equirect.unity
     guid: 5e45448517b956f4aaac0c2076e18066
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_189_AllSky_Space_DarkSpace_Equirect.unity
     guid: 35d0ce7a7b295e74880e684564d82057
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_190_AllSky_Space_InTheVortex Equirect.unity
     guid: c4fc6935de1bb0b4199a9c073d7dcd12
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_191_Space_Nebula_BlueRed Equirect.unity
     guid: f973ff6e4ed262543af5903b57b94328
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_192_Space_Nebula_DeepBlack Equirect.unity
     guid: 96b04e0655d4b0d42aff09576dad05d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_193_Space_Nebula_Green Equirect.unity
     guid: f62e3a5dd88fc5040b988fb6d1c8853e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_194_Space_Nebula_NuminousGlow Equirect.unity
     guid: 542a440c47c4426408266d4ed154f5b5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_195_Space_Nebula_OrangeBlue Equirect.unity
     guid: 53ce31c91e7ad0d4985f64579c53422e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_196_Space_Nebula_Red Equirect.unity
     guid: 5738735c29940134db697659d0b9d198
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_197_Space_Neon_Starless Equirect.unity
     guid: 18518be5fdf031748880823c3c539fce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_198_Space_VortexCloud_Starless Equirect.unity
     guid: 8a318993d450a7744a7819cfd02e9068
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_199_Moonless_NightSky_01 Equirect.unity
     guid: b001354da9ca5f44e88808d7c0f704d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_200_Moonless_NightSky_02 Equirect.unity
     guid: 8aaf3529bfa2b844b8413234b5f1161d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_201_Sunless_BlueSky_01 Equirect.unity
     guid: d49e1babd7994f847854de3a7c675082
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_202_Sunless_BlueSky_02 Equirect.unity
     guid: bffe30b11b3c8c1459c26538dd7080b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_203_Sunless_BlueSky_03 Equirect.unity
     guid: 8bed3e8ca575af149a9b3c8cf12bbd3a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_204_Cold Clouds Equirect.unity
     guid: cbcc128c22461a24195a14aa8117b567
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_205_Cold Night Equirect.unity
     guid: 117d33b1147183b4aa3c63d1750fbb79
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_206_Cold Sunset Equirect.unity
     guid: 4c81b0a9eb4365640bafcaa3eb4c0900
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_207_Cotton Clouds SunSet 1 Equirect.unity
     guid: 3819e9802be6fdd408e484dd23f350ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_208_Cotton Clouds SunSet 2  Equirect.unity
     guid: 7f67298efea8a914a9d358349766751b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_209_Deep Dusk Equirect.unity
     guid: 28237804a0c5a6842836d224171c666e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_210_Deep Storm Sunset Equirect.unity
     guid: 5f5457bead906d246bd1913af23cac6d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_211_Sky_LightBlue_Equirect.unity
     guid: a8b6bf2b4f521fd40af73197a5a4b726
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_212_AllSky_Night_MoonBurst Equirect.unity
     guid: ea908fa63ee44c84c9d6bdec4ad4d9ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_213_Optimistic Sunrise Equirect.unity
     guid: e11c24c6cb09109488f304457a61f105
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_214_Sky_Pink Sunset_Equirect.unity
     guid: 3e8c9b162fec73f469699c6dfdbfee1d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_215_Pink Sunset 2 Equirect.unity
     guid: e2a745ebee5524548bf8e76c43176f5a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Skyboxes/Scene_216_Sky_Sun Glow_Equirect.unity
     guid: 6e0477208e6f388428289a3d839832e5
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_0_Above Day A Equirect.unity
+    guid: 3b0c31f502ea1b247bcfa590ba467342
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_1_Above Day B Equirect.unity
+    guid: 7d5594e347d882545bd867be99fc70ea
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_2_Above Day C Equirect.unity
+    guid: dcc7c2ac42a48714ebcdd76e99012db9
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_3_Above Night A Equirect.unity
+    guid: 717c1a11338c3a04285fd38443e29d00
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_4_Above Night B Equirect.unity
+    guid: 2e7cd52a6b4bd2946aa4256c20327a8b
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_5_Above Sunset A Equirect.unity
+    guid: 0e4a83ebc9016734c943c9b83da9cfc6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_6_Above Sunset B Equirect.unity
+    guid: ef4d4d21de10318469603ce5029bc5a4
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_7_Above Sunset C Equirect.unity
+    guid: c2aabc68726b33944b1d39b41788ce12
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_8_Anime Day Equirect.unity
+    guid: 338702dfadeceb744bb43f1d38f401ed
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_9_Anime Night Equirect.unity
+    guid: ad24b42d612523f43aec266134b98a41
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_10_Anime Sunset Equirect.unity
+    guid: 908ecdd75070a314182504268094d8c2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_11_Cartoon_Airbrush_Day_NoSun Equirect.unity
+    guid: 2a7a1ed36c2b1eb42ab2aab60b0dbece
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_12_Cartoon_FluffyBlueSky Equirect.unity
+    guid: 0b26c91678ba70e438b3b9699dff12d7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_13_Day_BlueSky_Nothing Equirect.unity
+    guid: 88a1b9f7e8375fa4fbfa418eae0978ef
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_14_Cartoon Base NightSky Equirect.unity
+    guid: 3e6b2233ae03069488abb1deb22fdbd6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_15_Cartoon Base Skywave Equirect.unity
+    guid: 2d57c9cfe543f1e4093d36a0b7622249
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_16_Cartoon Base Twilight Equirect.unity
+    guid: f5f823e912774164ea895dd3531c408a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_17_Cartoon_SunsetWildOils_Equirect.unity
+    guid: 5f2712d1f77350344a9a39b84b13713c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_18_Cartoon_SunSetLightClouds Equirect.unity
+    guid: 9c9c27662b47a8d43b47bfddacdcd2f9
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_19_Cartoon_SegaPixelBlueSky_NoSun_Equirect.unity
+    guid: 8fa26ba90ac917140a7205b755b4ecaa
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_20_Day Sun High Clear Equirect.unity
+    guid: b4157d8d8bad1d443bed7f79b63ee1ed
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_21_Day Sun High ClearHazy Equirect.unity
+    guid: 33b6ca39e43474e40873b0fb532fbe4e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_22_Day Sun High CloudsLayer  Equirect.unity
+    guid: 2bf1f3d63719845469d5a034645799b3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_23_Day Sun High CloudsLayer Equirect.unity
+    guid: 274a1ab3aefa5c64bab601c22b62e108
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_24_Day Sun High EpicDenseClouds
+      Equirect.unity
+    guid: 4d6eeaa13a8eb6544a3215bc9fbab23b
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_25_Day Sun High FogHigh Equirect.unity
+    guid: cc1d24904304f6749ba61c4a4ca14a64
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_26_Day Sun High HorizonRich Equirect.unity
+    guid: e4ba12ecf99f326439fb7c831476638e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_27_Day Sun High Overcast Equirect.unity
+    guid: 1345446a6026521459c79137d87f785a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_28_Day Sun High Overcast Equirect.unity
+    guid: 35b32354f6d98764597f19ec431dadb8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_29_Day Sun High SimpleCloudLayer
+      Equirect.unity
+    guid: 8d39c69338c44f84aa62a7a810e0cc86
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_30_Day Sun High StormyCumulus Equirect.unity
+    guid: 3d2406968bd268b4a87fb14b8e03fda7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_31_Day Sun High SummerSky Equirect.unity
+    guid: 5e1662f7a6adbb34db40c1c77965eff7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_32_Day Sun High Summersky Equirect.unity
+    guid: 2bfb7922912792f4896944b9ad313d22
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_33_Day Sun Horizon ClearHazy Equirect.unity
+    guid: 2a7ba9b21e364734882fac50c5eee766
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_34_Day Sun Horizon FogHigh Equirect.unity
+    guid: c822dd642746c5e4ebd3c08dc79061ba
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_35_Day Sun Horizon HighColdCirrus
+      Equirect.unity
+    guid: b24d6a0fb6e941c448d691bda11c49fd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_36_Day Sun Horizon Overcast Equirect.unity
+    guid: 1fc08aa1b94c50245adca9e7dfcd6e72
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_37_Day Sun Horizon SimpleCloudLayer
+      Equirect.unity
+    guid: 4f1e1b636d809764ab56793e57c58794
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_38_Day Sun Horizon Summersky Equirect.unity
+    guid: 57124dcb1515e78438fc0e793ba3c8b3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_39_Day Sun Horizon Summersky Equirect.unity
+    guid: f75b9758f03bbfe44b57230a09425dd1
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_40_Day Sun Low Autumnal Equirect.unity
+    guid: 04a2a9f37e867274c9ff28d7cdb4ad9f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_41_Day Sun Low Clear Equirect.unity
+    guid: 20e3dafb3184cf64884a0c07ce39947e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_42_Day Sun Low ClearHazy Equirect.unity
+    guid: 70e9a42899a9ca945af99ad8aac1347d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_43_Day Sun Low CrepuscularStyle
+      Equirect.unity
+    guid: 79203c174c383ef40922de1a1654eb3f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_44_Day Sun Low EpicHigh Equirect.unity
+    guid: 55104cbc289778b4e9ac57a41fc9640c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_45_Day Sun Low EpicHigh Equirect.unity
+    guid: 3a0e076d012939d40b074f8e0b270e8b
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_46_Day Sun Low FogHigh Equirect.unity
+    guid: 7d8e3e3e8ccfa6d4ab47b80572ea1218
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_47_Day Sun Low HorizonRich Equirect.unity
+    guid: 40bdfeef9f323b74b9595534f9183a3d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_48_Day Sun Low Overcast Equirect.unity
+    guid: a876fe415e86e854e99a06b924c4b78d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_49_Day Sun Low Overcast Equirect.unity
+    guid: 850a00a119bea8e48aeeb926a81e8f40
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_50_Day Sun Low SimpleCloudLayer
+      Equirect.unity
+    guid: 9669e61d04ac6dd4484cbced8b76db85
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_51_Day Sun Low SimpleCloudLayer
+      Equirect.unity
+    guid: 26cee3c22c382854c82434d65932aee8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_52_Day Sun Low Summersky Equirect.unity
+    guid: ac0d2e901d3b9f948a01b924b2a4ffd5
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_53_Day Sun Low Summersky Equirect.unity
+    guid: 25ff76cc83c29334c9828919956553fa
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_54_Day Sun Low SummerSky Equirect.unity
+    guid: 1676385f075cd7b4e89f47fba9dc7c37
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_55_Day Sun Mid Autumnal Equirect.unity
+    guid: 969c3b1d7466a4743bea1491db520d76
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_56_Day Sun Mid Clear Equirect.unity
+    guid: 7e3b7328deb8db347ab45fb29831c848
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_57_Day Sun Mid ClearHazy Equirect.unity
+    guid: 57fe1fe13bd0161408d91347e82c35ad
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_58_Day Sun Mid Cloudslayer Equirect.unity
+    guid: d94e87e8fb3aad448982aec65d5fcdf8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_59_Day Sun Mid CloudsLayered Equirect.unity
+    guid: afb3fc1b4e42c7548bdf8830245af4e3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_60_Day Sun Mid CrepuscularStyle
+      Equirect.unity
+    guid: f6bd0df6d64862f418fa91da18b1fc4d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_61_Day Sun Mid EpicHigh Equirect.unity
+    guid: 9c1fd84c1111d5149a9817d83ad21e8a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_62_Day Sun Mid EpicHigh Equirect.unity
+    guid: 3a2c192c8848dfe4a98b3b3e10876a62
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_63_Day Sun Mid FogHigh Equirect.unity
+    guid: ec400aad86fafce49a6096b2349ff2c5
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_64_Day Sun Mid Heavy Equirect.unity
+    guid: cfbdae961dd07bd4cbbb626e76a5aad9
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_65_Day Sun Mid HighColdCirrus Equirect.unity
+    guid: e74b8d114a298c14ca40cb888dddd196
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_66_Day Sun Mid HorizonRich Equirect.unity
+    guid: 49f4cd20542b0ca4997448a77593231d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_67_Day Sun MId HorizonRich Equirect.unity
+    guid: d82920f6fa44f614e8590e75ea060fd0
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_68_Day Sun Mid Overcast1 Equirect.unity
+    guid: 95a3c663c96bb204291d6a94a8aa10bd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_69_Day Sun Mid Overcast2 Equirect.unity
+    guid: 990c9dd903afbee4d87f9f6f5f3c5b85
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_70_Day Sun Mid SimpleCloudLayer
+      Equirect.unity
+    guid: 75e15425f3d160140a802884b16d9f58
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_71_Day Sun Mid StormyCumulus Equirect.unity
+    guid: 3237f2481c16cc04db9c7b1153a17bea
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_72_Day Sun Mid SummerSky Equirect.unity
+    guid: a09ea926db6fe294fb4aa142f0e8e28c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_73_Day Sun Mid Summersky Equirect.unity
+    guid: 29e2e7167865423449ca7ea06f39d2ff
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_74_Day Sun Mid SummerSky Equirect.unity
+    guid: 865505192cb0fdd4f9237bf269c7ecbe
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_75_Day Sun Peak Clear Equirect.unity
+    guid: c2884525f28970447a1c206ed1d5c158
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_76_Day Sun Peak Summersky Equirect.unity
+    guid: 968025b6a51708a46af68d93b8cfb980
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_77_Day Sun Sunset Clear Equirect.unity
+    guid: b7a5b1d9b4c444e4c8dd61ca0cd19af7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_78_Day Sun Sunset EpicHigh Equirect.unity
+    guid: 486d4c986a305c44187ab4b6e3535d2a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_79_Day Sun Sunset SimpleCloudLayer
+      Equirect.unity
+    guid: fc76ec99ee908dc46a2b0c11cd066781
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_80_Day Sun Sunset Summersky Equirect.unity
+    guid: 0c3bb41c843c19b4a9644b1fd9a7c4e7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_81_Day Sun Sunset SummerSky 3 Equirect.unity
+    guid: b97d9359475d222448c5e69ad67431b0
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_82_Day Sun Twilight Clear Equirect.unity
+    guid: a3058008c9b8a2d4b8b010025a8209e5
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_83_Day Twilight Summersky Equirect.unity
+    guid: 1509b752fb2cb4b488eaef736d56ff6b
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_84_Epic Bright Sunset Equirect.unity
+    guid: a023c06956d544f45881d225e1232e49
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_85_Epic Night Turbulent Equirect.unity
+    guid: 720d8856ebcb32f47b121db1173836ea
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_86_Epic Sunset B Equirect.unity
+    guid: a303c7aa30b22cb479776f6592ca5263
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_87_Epic_BigCloudsSoft Equirect.unity
+    guid: a98786526055dc44294e2297bfee5abc
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_88_Epic_BlueSunset Equirect.unity
+    guid: 0cd6d83803eb7544688a94e5f3cc9166
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_89_Epic_BrightIncomingStorm Equirect.unity
+    guid: 526d9c6d889f32d4fb5b7a51d4d8f7e4
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_90_Epic_CentreOfTheStorm Equirect.unity
+    guid: d2d9dce4831c4134e8dc95b30fa7e3bc
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_91_Epic_GloriousPink Equirect.unity
+    guid: ca12b39682cb864458a6cd1fc4dc5d2f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_92_Epic_NightStormMoonGlow Equirect.unity
+    guid: 16a41b45dc4ed374a9834a9029518af8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_93_Epic_SunsetDark Equirect.unity
+    guid: e81fa5ad4c903c24cbd605f1bafddd14
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_94_Epic_SunsetGoldenLayers Equirect.unity
+    guid: 653b2ba97d44e7640821d5289721eabb
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_95_Epic_Twilight Equirect.unity
+    guid: c61fe4a597679704da5d6f3d1e76fb60
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_96_Epic_TwilightStormGlow Equirect.unity
+    guid: 588dd7386df8e744cb91d8ab8147461b
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_97_FantasySky_Fire Equirect.unity
+    guid: 84d138a1fba3fc344bd073381f7f7c72
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_98_FantasySky_Heavy_1 Equirect.unity
+    guid: 3edd94202e8779d45829f4020abf6e63
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_99_FantasyClouds2_High Equirect.unity
+    guid: 226e80c02beac244e8b0c287de73b8b7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_100_FantasyClouds_High3 Equirect.unity
+    guid: f2973f3f0313f1a438a5dfeb361de707
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_101_FantasyClouds1_Low Equirect.unity
+    guid: 8a5925ed86735ae44957ec863018e7ee
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_102_FantasyClouds1_Low Equirect.unity
+    guid: 8d62927b4fdab21448b719f30e5ea8ea
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_103_AllSky_FantasySky_Mid Equirect.unity
+    guid: 1b1df5312197c9147b016e18a811a16f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_104_AllSky_FantasySky_Mid_2 Equirect.unity
+    guid: 4792749b9edfed6418c9d0a3d9d48454
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_105_FantasySky_Night1 Equirect.unity
+    guid: 5c61c551be51ace49bda61f713da2062
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_106_FantasySky_Night_2 Equirect.unity
+    guid: 0d50d352d9dc6644c9d544e75e9ae8f6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_107_Haze_ColdIncomingSnow Equirect.unity
+    guid: 5156de25bdc6c7e4d9a5efaf98732bc6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_108_Haze_DiffuseLowSunGreen Equirect.unity
+    guid: eda4189635d4d934bb35a5aec7c8e24e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_109_Haze_WarmRainCloudsOnHorizon
+      Equirect.unity
+    guid: 5fe301be9de238647a590ddb7a05c3ec
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_110_Blouberg Sunrise Equirect.unity
+    guid: f11f8579f00ebba4f8077495c67dd7fd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_111_blouberg_sunrise_Equirect.unity
+    guid: 6489094655988954f8143cf1a95c9f7e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_112_blue_Lagoon_16k Equirect.unity
+    guid: 5b4b8cd912a2e384498c0dce493ea272
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_113_Cayley Lookout Equirect.unity
+    guid: e6847b2791a2b344ea4d771c6021af2e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_114_Cedar Bridge Equirect.unity
+    guid: 537ab3fbcef40714eb271da88f6c86ff
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_115_Circus Maximus Equirect.unity
+    guid: d275a7e56f6da4d4f9e55a4170b01383
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_116_Cloud Layers Equirect.unity
+    guid: 3193ba6a483fadd45ab483d424a02446
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_117_Fish Hoek Beach Equirect.unity
+    guid: bc464fa97092a2e4ba13253f20506569
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_118_Furry Clouds Equirect.unity
+    guid: 760be030c40da3448852269c33c7e9ae
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_119_Lenong Equirect.unity
+    guid: b5486d7ddfb035f459cfb90e8b748770
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_120_Mud Road Equirect.unity
+    guid: 3f2ca7f66cfee7d4dbd518dbc11a94a0
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_121_Rocky Ridge Equirect.unity
+    guid: b9410a81c9e885440b95cc9e555c8f6f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_122_Table Mountain Equirect.unity
+    guid: 4af3f57fc811c0e4a913d0c0fffdda2a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_123_The Sky is on Fire Equirect.unity
+    guid: 63d76d9dfbe4e8247a8890c973ae4fec
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_124_Tiber Island Equirect.unity
+    guid: 2aa6662b459598f4d978da6edc1873b1
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_125_Umlanga Sunrise Equirect.unity
+    guid: a6b9014f590310c4c89ad2e4e3e92fa9
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_126_White Cliff Top Equirect.unity
+    guid: 88974a9499c81784a88f9392a66e4b61
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_127_Winter Lake Equirect.unity
+    guid: bcca8949cd41f0d49a856a9c8b9a6823
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_128_Mammatus Day Dark Equirect.unity
+    guid: ddb06941e5f21c74fb9a450b0949d5c2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_129_Mammatus Sunset A Equirect.unity
+    guid: 4d818d970adff034e8c4ce0668b4944c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_130_Night Moon High Clear Equirect.unity
+    guid: df032f2c0dcb97944940ce6ab392efaf
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_131_Night Moon High HorizonRich
+      2 Equirect.unity
+    guid: da2499ae0431b244483be10876fdfb63
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_132_Night Moon High SimpleCloudLayer
+      2 Equirect.unity
+    guid: 06ee1650bf565f244a5ca4e551034fdf
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_133_Night Moon High SummerSky 3
+      Equirect.unity
+    guid: 87017dcd98c2dbc49aab3f9d7a0a5d19
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_134_Night Moon Low Clear Equirect.unity
+    guid: 9f4e8da88026d5a4d93abb4e768f18a2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_135_Night Moon Low ClearHazy Equirect.unity
+    guid: 61de818e29e85884ea3b1a5e4be1a0bf
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_136_Night Moon Low CloudsLayer Equirect.unity
+    guid: d85e8475a400b874e867015d5910c9eb
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_137_Night Moon Low CloudsLayered
+      Equirect.unity
+    guid: c081f0ba853ae7b45b1f2a21e6d6dc63
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_138_Night Moon Low CrepuscularStyle
+      Equirect.unity
+    guid: e5dafec5a0ff8e34faf980da56cc17be
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_139_Night Moon Low Cumulus2 Equirect.unity
+    guid: a24fb0cab2de0514cab1b2eecf6e5bf6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_140_Night Moon Low EpicDenseClouds
+      Equirect.unity
+    guid: 3554bbe77f1d0594886bf6d3b4f6773a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_141_Night Moon Low EpicHigh Equirect.unity
+    guid: 6de79953e4c14544e98675e3d1202df6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_142_Night Moon Low FogHigh Equirect.unity
+    guid: 1f34ee8b06fca66478b2969e84de4bb0
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_143_Night Moon Low Heavy Equirect.unity
+    guid: e95bab01f40fce847b90022cf2e05571
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_144_Night Moon Low HorizonRich Equirect.unity
+    guid: df8acb76df26d374bac598bfa54ea0bc
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_145_Night Moon Low HorizonRich 2
+      Equirect.unity
+    guid: 7f7bda14845fc3b41865eaeb2eec3868
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_146_Night Moon Low Large Equirect.unity
+    guid: adff1199516e81f4590c40d289bf224a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_147_Night Moon Low Overcast1 Equirect.unity
+    guid: a60414957d3d93e42b91df09677eb006
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_148_Night Moon Low Overcast2 Equirect.unity
+    guid: 30a1d2812440f2f448f72c9d7caab5f8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_149_Night Moon Low SimpleCloudLayer
+      2 Equirect.unity
+    guid: bd66506b78046ab45954d2de4ebca7b9
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_150_Night Moon Low StormyCumulus
+      Equirect.unity
+    guid: 339412ff93d34bb47921dada284ff083
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_151_Night Moon Low SummerSky Equirect.unity
+    guid: 9d1e2e6240230b14784c54fe6bfc93f7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_152_Night Moon Low Summersky 3 Equirect.unity
+    guid: 77b1ddcb9f382f64bab5b02d5a2ae2f6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_153_Night Moon Mid Autumnal Equirect.unity
+    guid: 3fcb119dbd31669498de5e785536347d
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_154_Night Moon Mid BrewingStorm
+      Equirect.unity
+    guid: 3c7e82be089cf294cb29389dabbfd3a2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_155_Night Moon Mid Clear Equirect.unity
+    guid: 510c357cd9e6e20499fbc9bc25f2c191
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_156_Night Moon Mid Clouds Layered
+      Equirect.unity
+    guid: e957312bfa37c6245873a2608f1d35c7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_157_Night Moon Mid CrepuscularStyle
+      Equirect.unity
+    guid: 693f65465db53db4a93a89eead36202e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_158_Night Moon Mid Cumulus Equirect.unity
+    guid: b84105f326c53f14ead689ca4b1e5ff6
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_159_Night Moon Mid EpicDenseClouds
+      Equirect.unity
+    guid: 6cc14cef92185c24786886b8510a718a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_160_Night Moon Mid EpicHigh Equirect.unity
+    guid: 45d1fca96ce40b8438cb7a33b198adcc
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_161_Night Moon Mid FogHigh Equirect.unity
+    guid: 30deeb6e94705e44a95041ff65d095bd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_162_Night Moon Mid Heavy Equirect.unity
+    guid: 360013e397996b0469c80f1ec9b7e3a7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_163_Night Moon Mid HighColdCirrus
+      Equirect.unity
+    guid: f458df786dc00e84d8acb5047365e487
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_164_Night Moon Mid Large Equirect.unity
+    guid: f5ec41e88fe26dc45950068a7b862c9e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_165_Night Moon Mid Overcast 1 Equirect.unity
+    guid: 13001d36e78b1914da2d3da5df1af6b8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_166_Night Moon Mid Overcast 2 Equirect.unity
+    guid: 38d1726ca2132684a81818c0ae7d4408
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_167_Night Moon Mid SimpleCloudLayer
+      Equirect.unity
+    guid: 5b846646a9dd31a4ba50a52bac879157
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_168_Night Moon Mid StormyCumulus
+      Equirect.unity
+    guid: ab08be3c87ecff4459c4fa657fafa357
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_169_Night Moon Peak Clear Equirect.unity
+    guid: b6ddd63d2120ed649969556525d86dd7
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_170_Night Moon Peak Summersky Equirect.unity
+    guid: cd50122d9279d9d418b2670ea8060082
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_171_Night Moon Rise Clear Equirect.unity
+    guid: b840bf77afa96d64992b7389796d4046
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_172_Night Skyglow Autumunal Equirect.unity
+    guid: d19d894ed31b4014da44fe078e8d33d1
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_173_Night Skyglow clearhazy Equirect.unity
+    guid: f4c8148eaf5089442a710781f322a464
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_174_Night Skyglow crepuscularstyle
+      Equirect.unity
+    guid: 9f1281ed9e7bb034295303a2ab8c2739
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_175_Night Skyglow epichigh Equirect.unity
+    guid: 26a6d195be6f5e14d8605afb22fc5e33
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_176_Night Skyglow foghigh Equirect.unity
+    guid: 4eedf9f48db6c3b4386163c0caebe215
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_177_Night Skyglow heavy Equirect.unity
+    guid: 37756b00d6a76e04e907704e5bca2820
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_178_Night Skyglow highcoldcirrus
+      Equirect.unity
+    guid: c774229ed16a86749a4214bdf65641a3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_179_Night Skyglow horizonrich Equirect.unity
+    guid: 35605433280d5b44a89521f4fcc9316c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_180_Night Skyglow Overcast Equirect.unity
+    guid: 2212ed5cd8f071647882d0099d47af98
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_181_AllSky_Overcast3_High Equirect.unity
+    guid: 993087f8333cfac4fb63cc8299639018
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_182_AllSky_Overcast4_Low Equirect.unity
+    guid: db49f186b2d79d840af2acb924d677bf
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_183_Space Planet A Equirect.unity
+    guid: ed45350d85b091a4c8d23ee63bded90c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_184_Space Planet B Equirect.unity
+    guid: f24b7ff88b7692a4384e0bf5cf06f8c1
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_185_Space Planet C Equirect.unity
+    guid: cad31663f9a91754bb4e8ab597f44f42
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_186_Starfield Equirect.unity
+    guid: 41e78711372f96c4ca1c2e53ce4bc1e5
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_187_AllSky_Space_AnotherPlanet Equirect.unity
+    guid: bffd957522dea5a429a9e0aa9c174510
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_188_AllSky_Space_ColdNebula_Equirect.unity
+    guid: 552f6ba0d0c7b8a44854401887d5b019
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_189_AllSky_Space_DarkSpace_Equirect.unity
+    guid: d063bfb95884cc242b85e1a8c156c29e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_190_AllSky_Space_InTheVortex Equirect.unity
+    guid: 098530a1cbd73a2479e8c4354a0635b8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_191_Space_Nebula_BlueRed Equirect.unity
+    guid: 2040530e95ec8ea49a7a756ac3c46f5e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_192_Space_Nebula_DeepBlack Equirect.unity
+    guid: 2d882e2a2068c2549b2fc11c7ca02c9a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_193_Space_Nebula_Green Equirect.unity
+    guid: ec71132e7b0175a488fe3acb812dc40a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_194_Space_Nebula_NuminousGlow Equirect.unity
+    guid: 7d9c991ad3fde1e48aee0e053ecd4dcd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_195_Space_Nebula_OrangeBlue Equirect.unity
+    guid: 7c202f36430ad0a4fb2253d4c0dfe04c
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_196_Space_Nebula_Red Equirect.unity
+    guid: 047bddd698c435a48ad86fe80fc61a98
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_197_Space_Neon_Starless Equirect.unity
+    guid: 4393c944f56a01f458856574eba9a4de
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_198_Space_VortexCloud_Starless Equirect.unity
+    guid: 7e939132a8b5a9a428b3258e34369b87
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_199_Moonless_NightSky_01 Equirect.unity
+    guid: a8111ceb7cf55f5408289dc766232f65
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_200_Moonless_NightSky_02 Equirect.unity
+    guid: 7a430717ba105c04b913eae9a089f761
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_201_Sunless_BlueSky_01 Equirect.unity
+    guid: 9d946bb7d496fb1498cba18e414cd1df
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_202_Sunless_BlueSky_02 Equirect.unity
+    guid: ab18f49c148d3b6409743f6f5b9c423a
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_203_Sunless_BlueSky_03 Equirect.unity
+    guid: c0e2d8a45c0124b4782a96dd48e682f8
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_204_Cold Clouds Equirect.unity
+    guid: 8a3564acc92d2794a845c69a213d7a9f
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_205_Cold Night Equirect.unity
+    guid: a116dadb36897a343a0274fdc6695bb3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_206_Cold Sunset Equirect.unity
+    guid: 9234ad36e0a611e4b9db4eebfbb922bb
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_207_Cotton Clouds SunSet 1 Equirect.unity
+    guid: 42b909d490600d346a160f86db7856d2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_208_Cotton Clouds SunSet 2  Equirect.unity
+    guid: bdba51a49396e2444868519b3b76d2bd
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_209_Deep Dusk Equirect.unity
+    guid: 9801e5f9f73943144be0b280ff073f43
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_210_Deep Storm Sunset Equirect.unity
+    guid: d4387dbb88fcc5d448489b8f5d8060f2
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_211_Sky_LightBlue_Equirect.unity
+    guid: eba870646280cea4cbe64a65a1d35ff3
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_212_AllSky_Night_MoonBurst Equirect.unity
+    guid: 76d4c5997dbfe164caf5831deb028997
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_213_Optimistic Sunrise Equirect.unity
+    guid: a9211b2c86b471e4f80c0e679ccda01e
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_214_Sky_Pink Sunset_Equirect.unity
+    guid: d88cb2bf485ffeb4e9accb0647ca7160
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_215_Pink Sunset 2 Equirect.unity
+    guid: a0c330202ffd77041b99dc62713bd727
+  - enabled: 1
+    path: Assets/Scenes/Skyboxes_NoShadows/Scene_216_Sky_Sun Glow_Equirect.unity
+    guid: a07b9651841283a4ebb7bea61d8ba135
   m_configObjects: {}
