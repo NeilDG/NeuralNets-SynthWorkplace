@@ -14,7 +14,7 @@ using Object = UnityEngine.Object;
 
 public class AutomatedBakingScript : MonoBehaviour
 {
-    private static int index = 201;
+    private static int index = 0;
     private static int requiredBakes;
     private static string[] assetPaths;
     private static LightingSettings lightingSettings;
@@ -25,7 +25,7 @@ public class AutomatedBakingScript : MonoBehaviour
         NO_SHADOWS = 1
     }
 
-    private static BakingMode bakingMode = BakingMode.WITH_SHADOWS; //modify as necessary
+    private static BakingMode bakingMode = BakingMode.NO_SHADOWS; //modify as necessary
     private static int pngSceneIndex = 0;
 
     static string[] PopulateSkyboxes()
