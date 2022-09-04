@@ -67,10 +67,19 @@ public class AutomatedBakingScript : MonoBehaviour
         defaultSettings.directSampleCount = 256;
         defaultSettings.indirectSampleCount = 256;
         defaultSettings.environmentSampleCount = 256;
-        defaultSettings.lightmapMaxSize = 512;
-        defaultSettings.lightmapResolution = 4.0f;
+        defaultSettings.lightmapMaxSize = 256;
+        defaultSettings.lightmapResolution = 2.0f;
         defaultSettings.prioritizeView = false;
         defaultSettings.lightmapper = LightingSettings.Lightmapper.ProgressiveGPU;
+        if (bakingMode == BakingMode.WITH_SHADOWS)
+        {
+            defaultSettings.mixedBakeMode = MixedLightingMode.Shadowmask;
+        }
+        else
+        {
+            defaultSettings.mixedBakeMode = MixedLightingMode.Subtractive;
+        }
+        
 
         return defaultSettings;
     }
@@ -92,6 +101,18 @@ public class AutomatedBakingScript : MonoBehaviour
             return Application.dataPath + "/Scenes/Skyboxes_NoShadows/" + sceneName;
         }
     }
+
+    static String FormatRelativePath(BakingMode bakingMode, string sceneName)
+    {
+        if (bakingMode == BakingMode.WITH_SHADOWS)
+        {
+            return "Assets/Scenes/Skyboxes/" + sceneName;
+        }
+        else
+        {
+            return "Assets/Scenes/Skyboxes_NoShadows/" + sceneName;
+        }
+    }
     [MenuItem("Window/Automated Baking/Create Scene Copies")]
     static void SaveSceneCopies()
     {
@@ -104,6 +125,7 @@ public class AutomatedBakingScript : MonoBehaviour
             Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[i]);
             string sceneName = "Scene_" + i.ToString() + "_" + skyboxMat.name + ".unity";
             string scenePath = FormatScenePath(bakingMode, sceneName);
+            RenderSettings.skybox = skyboxMat;
             bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
         }
 
@@ -124,7 +146,8 @@ public class AutomatedBakingScript : MonoBehaviour
         Lightmapping.bakeStarted += OnBakeStarted;
         Lightmapping.bakeCompleted += OnBakeCompleted;
 
-        string sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
+        string sceneNameMinusExt = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name;
+        string sceneName = sceneNameMinusExt + ".unity";
         string scenePath = FormatScenePath(bakingMode, sceneName);
         bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
 
@@ -132,8 +155,10 @@ public class AutomatedBakingScript : MonoBehaviour
         Lightmapping.ClearDiskCache();
         Lightmapping.SetLightingSettingsForScene(EditorSceneManager.GetActiveScene(), lightingSettings);
         EditorSceneManager.OpenScene(scenePath);
+        Lightmapping.lightingDataAsset = AssetDatabase.LoadAssetAtPath<LightingDataAsset>(scenePath + "/LightingData.asset");
+        
         Lightmapping.BakeAsync();
-
+        //OnBakeCompleted()
     }
 
 
@@ -160,24 +185,25 @@ public class AutomatedBakingScript : MonoBehaviour
 
     static void OnBakeCompleted()
     {
-        string sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
+        string sceneNameMinusExt = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name;
+        string sceneName = sceneNameMinusExt + ".unity";
         Debug.Log("Bake completed. Saved scene: " +sceneName);
 
         //start next bake
         index++;
+
         if (index < requiredBakes)
         {
             Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[index]);
             RenderSettings.skybox = skyboxMat;
 
-            Debug.Log("Baking next skybox.");
+            /*Debug.Log("Baking next skybox.");
             Debug.Log("Direct samples: " + lightingSettings.directSampleCount);
             Debug.Log("Indirect samples: " + lightingSettings.indirectSampleCount);
             Debug.Log("Environment samples: " + lightingSettings.environmentSampleCount);
             Debug.Log("Baking device: " + lightingSettings.lightmapper.ToString());
-            Debug.Log("Skybox name: " + RenderSettings.skybox.name);
+            Debug.Log("Skybox name: " + RenderSettings.skybox.name);*/
 
-            sceneName = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name + ".unity";
             string scenePath = FormatScenePath(bakingMode, sceneName);
             bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
             if (result)
@@ -186,7 +212,14 @@ public class AutomatedBakingScript : MonoBehaviour
                 Lightmapping.ClearDiskCache();
                 Lightmapping.SetLightingSettingsForScene(EditorSceneManager.GetActiveScene(), lightingSettings);
                 EditorSceneManager.OpenScene(scenePath);
+
+                sceneNameMinusExt = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name;
+                sceneName = sceneNameMinusExt + ".unity";
+                string lightingDataPath = FormatRelativePath(bakingMode, sceneNameMinusExt) + "/LightingData.asset";
+                Debug.Log("Lighting data path: " + lightingDataPath);
+                Lightmapping.lightingDataAsset = AssetDatabase.LoadAssetAtPath<LightingDataAsset>(lightingDataPath);
                 Lightmapping.BakeAsync();
+                //OnBakeCompleted();
             }
             else
             {
@@ -204,12 +237,55 @@ public class AutomatedBakingScript : MonoBehaviour
             psi.UseShellExecute = false;
             Process.Start(psi);*/
         }
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    [MenuItem("Window/Automated Baking/Maintenance/Map Lighting Data Assets")]
+    static void AssignLightingDataAsset()
     {
-        
+        assetPaths = PopulateSkyboxes();
+        requiredBakes = assetPaths.Length;
+        //requiredBakes = 20;
+
+        index = 0;
+        AssignLightingData();
+    }
+
+    static void AssignLightingData()
+    {
+        string sceneNameMinusExt = "Scene_" + index.ToString() + "_" + RenderSettings.skybox.name;
+        string sceneName = sceneNameMinusExt + ".unity";
+
+        if (index < requiredBakes)
+        {
+            Material skyboxMat = AssetDatabase.LoadAssetAtPath<Material>(assetPaths[index]);
+            RenderSettings.skybox = skyboxMat;
+
+            string scenePath = FormatScenePath(bakingMode, sceneName);
+            EditorSceneManager.OpenScene(scenePath);
+            string lightingDataPath = FormatRelativePath(bakingMode, sceneNameMinusExt) + "/LightingData.asset";
+            Debug.Log("Lighting data path: " + lightingDataPath);
+            Lightmapping.lightingDataAsset = AssetDatabase.LoadAssetAtPath<LightingDataAsset>(lightingDataPath);
+
+            bool result = EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), scenePath, true);
+            if (result)
+            {
+                Debug.Log("Updated lighting data asset of: " + sceneNameMinusExt);
+            }
+            else
+            {
+                Debug.LogError("An error occurred on mapping lighting data for: " + sceneNameMinusExt);
+            }
+
+            //start next scene
+            index++;
+            AssignLightingData();
+        }
+
+        if (index == requiredBakes)
+        {
+            index = 0;
+            Debug.Log("Mapping completed");
+        }
     }
 }

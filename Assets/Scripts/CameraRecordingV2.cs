@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,7 +13,7 @@ public class CameraRecordingV2 : MonoBehaviour
 {
     [SerializeField] private Camera cleanCamera;
 
-    enum ShadowDatasetType
+    public enum ShadowDatasetType
     {
         WITH_SHADOWS,
         NO_SHADOWS,
@@ -30,10 +32,42 @@ public class CameraRecordingV2 : MonoBehaviour
     private int counter = 0;
 
     private string currentFolderDir;
+    private string[] skyboxList;
+
+    static string[] PopulateSkyboxes()
+    {
+        string[] guids = AssetDatabase.FindAssets("equirect t:material");
+        string[] assetPaths = new string[guids.Length];
+        for (int i = 0; i < guids.Length; i++)
+        {
+            assetPaths[i] = AssetDatabase.GUIDToAssetPath(guids[i]);
+        }
+
+        return assetPaths;
+    }
 
     void AttachCameras()
     {
         this.cleanCamera = GameObject.Find("CleanCamera").GetComponent<Camera>();
+    }
+
+    void CreateSubFolder(string sceneName)
+    {
+        if (this.shadowDatasetType == ShadowDatasetType.WITH_SHADOWS)
+        {
+            this.currentFolderDir = BASE_PATH + "/rgb/" + sceneName + "/";
+            Directory.CreateDirectory(this.currentFolderDir);
+        }
+        else
+        {
+            this.currentFolderDir = BASE_PATH + "/rgb_noshadows/" + sceneName + "/";
+            Directory.CreateDirectory(this.currentFolderDir);
+        }
+    }
+
+    public void SetShadowDatasetType(ShadowDatasetType datasetType)
+    {
+        this.shadowDatasetType = datasetType;
     }
 
     // Start is called before the first frame update
@@ -42,27 +76,36 @@ public class CameraRecordingV2 : MonoBehaviour
         this.AttachCameras();
         Time.captureFramerate = CAPTURE_FRAME_RATE;
 
-        if (this.shadowDatasetType == ShadowDatasetType.WITH_SHADOWS)
-        {
-            this.currentFolderDir = BASE_PATH + "/rgb/";
-            Directory.CreateDirectory(this.currentFolderDir);
-        }
-        else
-        {
-            this.currentFolderDir = BASE_PATH + "/rgb_noshadows/";
-            Directory.CreateDirectory(this.currentFolderDir);
-        }
+        this.skyboxList = PopulateSkyboxes();
+
+        string sceneName = SceneManager.GetActiveScene().name;
+        this.CreateSubFolder(sceneName);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        string sceneName = SceneManager.GetActiveScene().name;
+        if (sceneIndex > 0 && this.counter >= MAX_IMAGES_TO_SAVE)
+        {
+            Debug.Log("Done saving images for skybox: " + sceneName);
+
+            Object.DestroyImmediate(this.gameObject);
+            EventBroadcaster.Instance.PostEvent(EventNames.ON_RECORDING_FINISHED);
+        }
+        else if (sceneIndex == 0 && this.counter >= MAX_IMAGES_TO_SAVE_DEBUG)
+        {
+            Object.DestroyImmediate(this.gameObject);
+            EventBroadcaster.Instance.PostEvent(EventNames.ON_RECORDING_FINISHED);
+        }
+
         float multiplier = Time.captureDeltaTime * Time.timeScale;
         this.frames += Mathf.RoundToInt(multiplier);
 
 ;       if (this.frames < 80000) //skip first N frames
         {
-            Debug.Log("Skipping " + this.frames+ " for sync.");
+            //Debug.Log("Skipping " + this.frames+ " for sync.");
             return;
         }
 
@@ -70,12 +113,6 @@ public class CameraRecordingV2 : MonoBehaviour
         {
             this.WriteRGBCam();
             this.counter++;
-        }
-
-        if (this.counter >= MAX_IMAGES_TO_SAVE)
-        {
-            Debug.Log("Done saving images for scene: " + SceneManager.GetActiveScene().name);
-            Object.DestroyImmediate(this.gameObject);
         }
     }
 
@@ -98,6 +135,6 @@ public class CameraRecordingV2 : MonoBehaviour
         Destroy(Image);
 
         File.WriteAllBytes(this.currentFolderDir + "/synth_" + this.counter + ".png", Bytes);
-        Debug.Log("Saved frame number: " + this.counter);
+        //Debug.Log("Saved frame number: " + this.counter);
     }
 }
