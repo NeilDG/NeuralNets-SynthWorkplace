@@ -1,6 +1,6 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Custom/SpecularShader"
+Shader "Custom/AlbedoShader"
 {
         SubShader{
             // markers that specify that we don't need culling 
